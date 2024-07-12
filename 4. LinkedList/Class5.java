@@ -40,6 +40,16 @@ public class Class5 {
                 temp = temp.next;
             }
         }
+
+        int size() {
+            Node temp = head;
+            int count = 0;
+            while (temp != null) {
+                count++;
+                temp = temp.next;
+            }
+            return count;
+        }
     }
 
     public static void main(String[] args) {
@@ -47,5 +57,6 @@ public class Class5 {
         li.insertAtEnd(23);
         li.insertAtEnd(11);
         li.display();
+        System.out.println(li.size());
     }
 }
