@@ -4,9 +4,11 @@ public class Class_1 {
 
     // Creating Node
 
+    // create a class of Node
     public static class Node {
 
-        // Node is known as data which is user defined data
+        // Node is known as data which is user defined data which store data and address
+        // of next data
 
         int data; // value
         Node next; // address of next node
@@ -15,6 +17,7 @@ public class Class_1 {
 
     public static void main(String args[]) {
 
+        // creating object of Node class
         Node x = new Node();
         /*
          * System.out.println(x); when just int data declare then output is

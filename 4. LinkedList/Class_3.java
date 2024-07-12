@@ -12,6 +12,28 @@ public class Class_3 {
         }
     }
 
+    /* Displaying value of LinkedList using display() */
+    public static void display(Node head) {
+        while (head != null) {
+            System.out.println(head.data + "  ");
+            head = head.next;
+        }
+    }
+
+    /* Displaying value of LinkedList recursively */
+
+    public static void displayr(Node head) {
+        if (head == null)
+            return; // these return means just over the displayr() when head value is null
+        System.out.println(head.data);
+        displayr(head.next);
+        System.out.println(head.data); /*
+                                        * it will print value recursively becz call value is store in the form of stack
+                                        * and value print in LIFO manner
+                                        */
+
+    }
+
     public static void main(String[] args) {
         Node a = new Node(2);
         Node b = new Node(11);
@@ -24,8 +46,10 @@ public class Class_3 {
         c.next = d;
         d.next = e;
 
-        Node temp = a; // here not a new node created just a variable temp created which also point the
-                       // node of a
+        Node temp = a; /*
+                        * here not a new node created just a variable temp created which also point the
+                        * node of a which always preserved the value of (a) as head
+                        */
         // for (int i = 0; i <= 5; i++) {
         // System.out.println(temp.data);
         // temp = temp.next;
@@ -49,5 +73,28 @@ public class Class_3 {
             System.out.println(temp.data + " ");
             temp = temp.next;
         }
+
+        /*
+         * while (temp != null) {
+         * System.out.println(temp.data + " ");
+         * temp = temp.next;
+         * }
+         * while we again want to one more while loop then it could not run becz (a)
+         * which is head node has lost it so that's why we create function display()
+         * to print data
+         */
+
+        System.out.println("Using display()");
+        display(a);
+
+        /*
+         * Using while again can't print value one more time but using display once more
+         * it will print becz (a) is preserved
+         */
+        System.out.println();
+        display(a); /* by using display() our (a) is preserved */
+
+        System.out.println("Displaying value Recursively");
+        displayr(a);
     }
 }
