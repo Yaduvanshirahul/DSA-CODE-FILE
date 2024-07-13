@@ -1,4 +1,4 @@
-/* Here we create LinkedList and assign data and linked node */
+/* Here we create LinkedList manually and assign data and linked node */
 
 public class Class_2 {
 

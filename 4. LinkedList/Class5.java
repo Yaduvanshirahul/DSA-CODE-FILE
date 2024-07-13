@@ -11,7 +11,7 @@ public class Class5 {
         }
     }
 
-    /* Creating a user-defined linkedlist which is */
+    /* Creating a user-defined linkedlist which is also linked the element */
     public static class linkedlist {
         Node head = null;
         Node tail = null;

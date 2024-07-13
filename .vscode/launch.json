@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Class",
+            "request": "launch",
+            "mainClass": "Class",
+            "projectName": "DSA CODE FILE_5002c8e8"
+        },
+        {
+            "type": "java",
+            "name": "Class4",
+            "request": "launch",
+            "mainClass": "Class4",
+            "projectName": "DSA CODE FILE_5002c8e8"
+        },
+        {
+            "type": "java",
+            "name": "Class5",
+            "request": "launch",
+            "mainClass": "Class5",
+            "projectName": "DSA CODE FILE_5002c8e8"
+        },
+        {
+            "type": "java",
+            "name": "Class_1",
+            "request": "launch",
+            "mainClass": "Class_1",
+            "projectName": "DSA CODE FILE_5002c8e8"
+        },
+        {
+            "type": "java",
+            "name": "Class_2",
+            "request": "launch",
+            "mainClass": "Class_2",
+            "projectName": "DSA CODE FILE_5002c8e8"
+        },
+        {
+            "type": "java",
+            "name": "Class_3",
+            "request": "launch",
+            "mainClass": "Class_3",
+            "projectName": "DSA CODE FILE_5002c8e8"
+        }
+    ]
+}
